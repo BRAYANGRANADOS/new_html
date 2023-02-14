@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mas elementos formulario</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>datos personales</legend>
+         <div>
+        <label for="name">nombre</label>
+        <input type="text">
+        </div>
+
+        <label for="surname">apellido</label>
+        <input type="text" id="surname">   
+        
+        
+        </fieldset>
+
+        <input type="file">
+
+
+         <label for="fuel">combustible</label>
+        <meter id="fuel" min="0" max="100" value="60" low="30"
+        high="75" optimum="50"></meter>
+
+
+        <label for="task">tarea 1</label>
+        <progress id="task" max="100" value="75"></progress>
+
+
+        <label for="mesa">mensaje</label>
+        <textarea name="" id="mesa" cols="10" rows="10"></textarea>
+
+    </form>
+</body>
+</html>
